@@ -1,7 +1,6 @@
 name: az_login_test
 on: 
-  push:
-    branches: [ 'main' ]
+  workflow_dispatch
 
 jobs:
   build:
